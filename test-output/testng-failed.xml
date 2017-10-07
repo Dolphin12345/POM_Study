@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="fb_Test_POM.Test_fb_POM">
+        <methods>
+          <include name="verifyLogin"/>
+          <include name="aftertest"/>
+          <include name="verifyLogout"/>
+          <include name="VerifyLaunchBrowser"/>
+        </methods>
+      </class> <!-- fb_Test_POM.Test_fb_POM -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
